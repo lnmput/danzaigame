@@ -19,9 +19,9 @@ window.addEventListener('resize', () => {
 
 // 添加音效对象
 const sounds = {
-    shoot: new Audio('/Users/yangzie/Desktop/game/sounds/shoot.mp3'),
-    hit: new Audio('/Users/yangzie/Desktop/game/sounds/hit.mp3'),
-    destroy: new Audio('/Users/yangzie/Desktop/game/sounds/destroy.mp3')
+    shoot: new Audio('./sounds/shoot.mp3'),
+    hit: new Audio('./sounds/hit.mp3'),
+    destroy: new Audio('./sounds/destroy.mp3')
 };
 
 // 添加备用音效（如果没有实际音频文件）
